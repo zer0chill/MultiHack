@@ -25,7 +25,6 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="ProcMem.cpp" />
     <ClCompile Include="Radar.cpp" />
-    <ClCompile Include="SHA512.cpp" />
     <ClCompile Include="Trigger.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -35,7 +34,6 @@
     <ClInclude Include="Offsets.h" />
     <ClInclude Include="ProcMem.h" />
     <ClInclude Include="Radar.h" />
-    <ClInclude Include="SHA512.h" />
     <ClInclude Include="Trigger.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
