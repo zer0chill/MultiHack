@@ -23,23 +23,6 @@ Engine::~Engine()
 
 void Engine::Run()
 {
-	/* string username, password;
-	string hashedPass;
-	auth.loggedIn = false;
-	while (!auth.loggedIn)
-	{
-		cout << "Username: ";
-		cin >> username;
-		cout << "Password: ";
-		cin >> password;
-		hashedPass = sha512(password);
-
-		if (!auth.Login(username, password))
-		{
-			cout << "Invalid username/password" << endl;
-		}
-	} */
-
 	system("cls");
 	cout << "Numpad 1 to toggle radar" << endl;
 	cout << "Numpad 2 to toggle glow" << endl;
