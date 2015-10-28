@@ -19,7 +19,6 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Auth.cpp" />
     <ClCompile Include="Bhop.cpp" />
     <ClCompile Include="Engine.cpp" />
     <ClCompile Include="Glow.cpp" />
@@ -30,7 +29,6 @@
     <ClCompile Include="Trigger.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Auth.h" />
     <ClInclude Include="Bhop.h" />
     <ClInclude Include="Engine.h" />
     <ClInclude Include="Glow.h" />

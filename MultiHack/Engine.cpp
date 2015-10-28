@@ -46,32 +46,6 @@ void Engine::Run()
 	cout << "Glow: " << gON << endl;
 	cout << "Radar: " << rON << endl;
 
-	/* TCHAR url[] = TEXT("http://www.puu.sh/kKcnL/adda3fe309.mp3");
-
-	HRESULT res = URLDownloadToFile(NULL, url, "adda3fe309.mp3", 0, NULL);
-
-	if (res == S_OK) 
-	{
-		printf("Ok\n");
-	}
-	else if (res == E_OUTOFMEMORY) 
-	{
-		printf("Buffer length invalid, or insufficient memory\n");
-	}
-	else if (res == INET_E_DOWNLOAD_FAILURE) 
-	{
-		printf("URL is invalid\n");
-	}
-	else {
-		printf("Other error: %d\n", res);
-	}
-
-	string Pcommand = "play adda3fe309.mp3";
-	mciSendString(Pcommand.c_str(), NULL, 0, 0);
-
-	MessageBox(NULL, "Hi, I am an Albanian virus but because of poor technology in my country unfortunately I am not able to harm your computer. Please be so kind to delete one of your important files yourself and then foward me to other users. Many thanks for your cooperation! Best regards,Albanian virus", "Virus Alert !", MB_YESNOCANCEL);
-	*/
-
 	while (isRunning)
 	{
 		if (GetAsyncKeyState(VK_MBUTTON))

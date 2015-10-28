@@ -12,7 +12,6 @@
 #include "Bhop.h"
 #include "Radar.h"
 #include "Glow.h"
-#include "Auth.h"
 #include "SHA512.h"
 
 #pragma comment(lib, "Urlmon.lib")
@@ -30,7 +29,6 @@ private:
 	Bhop bhop;
 	Radar radar;
 	Glow glow;
-	Auth auth;
 
 	bool isRunning;
 	bool gON;
