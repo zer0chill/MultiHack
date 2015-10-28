@@ -3,8 +3,6 @@
 #include <Windows.h>
 #include <thread>
 #include <iostream>
-#include <tchar.h>
-#include <Urlmon.h>
 
 #include "Offsets.h"
 #include "ProcMem.h"
@@ -13,9 +11,6 @@
 #include "Radar.h"
 #include "Glow.h"
 #include "SHA512.h"
-
-#pragma comment(lib, "Urlmon.lib")
-#pragma comment(lib, "winmm.lib")
 
 class Engine
 {
